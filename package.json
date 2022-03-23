@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./data/css/gaya.css -o ./data/css/efek.css --watch"
+    "dev": "npx tailwindcss -i ./gaya.css -o ./efek.css --watch"
   },
   "keywords": [],
   "author": "",
