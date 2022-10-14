@@ -496,6 +496,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 8rem;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-24 {
+  margin: 6rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.m-48 {
+  margin: 12rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -571,6 +587,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .justify-center {
@@ -764,5 +784,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:blur-none:hover {
   --tw-blur: blur(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:blur-sm:hover {
+  --tw-blur: blur(4px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
